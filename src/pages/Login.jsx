@@ -17,7 +17,7 @@ const roles = [
 
 export default function Login() {
   const [email, setEmail] = useState('pramod.rf@gmail.com');
-  const [password, setPassword] = useState('NewPass123');
+  const [password, setPassword] = useState('NewPass@123');
   const [selectedRole, setSelectedRole] = useState('STUDENT');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
