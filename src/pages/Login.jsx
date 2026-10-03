@@ -180,6 +180,12 @@ export default function Login() {
                   Forgot Password?
                 </a>
               </div>
+              <div className="text-center mt-4">
+               <span className="text-sm text-gray-400">New user? </span>
+               <a href="/register" className="text-sm text-blue-400 hover:text-blue-300 font-semibold underline">
+                Create an Account
+               </a>
+              </div>
 
               <p className="text-center text-[10px] text-gray-400 pt-3 flex items-center justify-center gap-2 border-t border-white/10">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block animate-pulse"></span>
