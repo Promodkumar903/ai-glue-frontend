@@ -3,7 +3,7 @@ import { useAuth } from '../lib/auth-context';
 import { useNavigate } from 'react-router-dom';
 import { 
   GraduationCap, Briefcase, Users, Landmark, Building2, ShieldCheck, 
-  Sparkles, ArrowRight, CheckCircle2, Mail, Lock 
+  Sparkles, ArrowRight, CheckCircle2, Mail, Lock  
 } from 'lucide-react';
 
 const roles = [
